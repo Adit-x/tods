@@ -13,7 +13,7 @@ ip = requests.get('https://api.ipify.org').text
 kot = requests.get ("http://alvinxd.herokuapp.com/region/?").text
 con = requests.get ("http://alvinxd.herokuapp.com/country/?").text
 # BANNER #
-def baner():(""" __  __ ____  _____
+def baner():print (""" __  __ ____  _____
 |  \/  | __ )|  ___| \33[36;1m'  new tols \
 | |\/| |  _ \| |_   \33[36;1m'  au:ditwibu \hek efbi7
 | |  | | |_) |  _|  \33[36;1m' *gh:github.com/adit-x
